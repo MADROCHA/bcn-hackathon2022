@@ -1,6 +1,6 @@
 import React from "react"
 import "../stylesheets/LoginButton.css"
-import GoogleLogo from "../images/googleLogo.png"
+import icongoogle from "../images/icongoogle.png"
 
 
 function LoginButton ({ text, onClick }){
@@ -10,7 +10,7 @@ function LoginButton ({ text, onClick }){
 			onClick = {onClick}>
 			<img 
 				className = 'google-logo'
-				src = {GoogleLogo} 
+				src = {icongoogle} 
 				alt = 'google logo' /> 
 			{text}
 		</button>

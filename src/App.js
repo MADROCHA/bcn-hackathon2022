@@ -1,4 +1,5 @@
 import "./App.css"
+import React from "react"
 import Button from "./components/Button"
 import DropZoneComponent from "./components/DropZoneComponent"
 import LoginButton from "./components/LoginButton"
@@ -14,9 +15,9 @@ function App() {
 
 	const handleOpenPicker = () => {
 		openPicker({
-			clientId: "390878779732-ihu8an4kit03pgvd3dot4pfpmf51m32h.apps.googleusercontent.com",
-			developerKey: "AIzaSyAFl2nbR88tJJERFjYV3Nn2oEqcwnE4UkM",
-			token: "AIzaSyAWWBTwOkniMgvQwmPN27DdVTh4qczAL2w",
+			clientId: "480725159967-rcbuikj157icluod5hjl3dbum0kdj7aa.apps.googleusercontent.com",
+			developerKey: "AIzaSyBUyWW8wWsJY5QUxr1ty1y_Y19j77mjsbE",
+			token: "ya29.a0ARrdaM8xhyD9L_86Pb1Mo8zxXsLc6HnK7yB6gZPB3AUkzIMWaHBeKoWqrlsS6SrNjUlGOMVmY1VyqG1jkXQaGNcaXHd-7c2l9SME6hTIEp48GKfLxLr3AZUfx1vxg1OR1GXPxSQ8VdXyAzGBguDEoXf5t3fC",
 			viewId: "DOCS",
 			showUploadView: true,
 			showUploadFolders: true,
