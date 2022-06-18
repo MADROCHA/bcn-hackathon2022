@@ -1,0 +1,21 @@
+p{
+    color: #FFFFFF;
+    position: absolute;
+    padding: 91px;
+    display: flex;
+    justify-content: center;
+
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 16px;
+    margin-top: 200px;
+
+
+}
+
+.fileBackground-image{
+    width: 822px;
+    height: 597px;
+    left: 53px;
+    top: 98px;
+}

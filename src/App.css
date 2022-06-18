@@ -1,4 +1,93 @@
-.App {
-  text-align: center;
+*{
+  font-family: 'Montserrat', sans-serif;
+
 }
 
+body{
+  margin-left: 53px;
+  margin-right: 55.98px;
+  margin-top: 98px;
+  margin-bottom: 154px;
+  background-color: #130F26;
+
+}
+
+.fileBackground-image{
+  width: 822px;
+  height: 597px;
+  left: 53px;
+  top: 98px;
+}
+
+
+hr.line {
+  width: 389.05px;
+  left: 69.1%;
+  right: 3.89%;
+  top: 50.67%;
+  bottom: 49.33%;
+
+  border: 1px solid #39424E;
+  margin-left: 69%;
+  margin-top: 49px;
+  margin-bottom: 47px;
+  }
+
+
+h6{  
+  left: 69.1%;
+  right: 3.89%;
+  top: 41.44%;
+  bottom: 54.78%;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: justify;
+  letter-spacing: 0.4px;
+  margin-top: 17px;
+  
+
+  color: #FFFFFF;
+  position: relative;
+  max-width: 389px;
+
+}
+
+h2{
+  left: 70.49%;
+  right: 5.28%;
+  top: 35.56%;
+  bottom: 60.44%;
+
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 36px;
+  color: #FFFFFF;
+
+  position: relative;
+}
+
+div.login-welcome-container{
+  margin-top: -903px;
+  margin-left: -53px;
+  margin-right: -55.98px;
+  margin-bottom: 423px;
+
+}
+
+.green-container{
+  position: absolute;
+  width: 822px;
+  height: 597px;
+
+
+  background-color: #6AB972;
+  filter: blur(70px);
+  transform: matrix(1, 0, -1, 0, 0);
+  z-index: -1;
+}
+div.dropZone-container button.button {
+  margin-bottom: 20rem;
+  
+}
