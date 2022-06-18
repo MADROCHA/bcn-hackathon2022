@@ -1,7 +1,7 @@
 import React from "react"
 import "../stylesheets/DropZoneComponent.css"
 import dropbg from "../images/dropbg.png"
-// import Dropzone, {useDropzone} from "react-dropzone"
+import Dropzone, {useDropzone} from "react-dropzone"
 
 function DropZoneComponent(){
 	return(
