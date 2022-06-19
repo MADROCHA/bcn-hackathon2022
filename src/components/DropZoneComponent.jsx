@@ -32,7 +32,7 @@ function DropZoneComponent(){
 	return( 
 	
 <>
-	<form>{selectedFiles}
+	<form>{selectedFiles}</form>
 		<div {...getRootProps()}>
 		<input {...getInputProps()} />
 
@@ -50,7 +50,7 @@ function DropZoneComponent(){
 
 		</div>
 		</div>
-	</form>
+	
 </>
 	)
 

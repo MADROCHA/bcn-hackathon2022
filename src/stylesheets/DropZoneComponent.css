@@ -14,9 +14,9 @@ p{
 }
 
 form{
+    position: absolute;
     display: flex;
     z-index: 3;
-    position: absolute;
     object-fit: contain;
     
 }
