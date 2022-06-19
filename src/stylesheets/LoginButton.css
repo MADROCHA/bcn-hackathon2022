@@ -17,6 +17,8 @@
 .login-button:hover{
     background-color: #569B51;
     color: #FFFFFF;
+    border:1px solid #6AB972;
+    
 }
 .google-logo{
     padding-left: 19.98px;
