@@ -1,11 +1,9 @@
 import "./App.css"
 
 import DropZoneComponent from "./components/DropZoneComponent"
-import LoginButton from "./components/LoginBtn"
-import { useEffect } from "react"
+import LoginButton from "./components/LoginButton"
+import React, { useEffect } from "react"
 import useDrivePicker from "react-google-drive-picker"
-import React from "react"
-
 
 
 function App() {
