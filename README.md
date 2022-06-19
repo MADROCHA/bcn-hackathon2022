@@ -48,7 +48,7 @@ En React la carpeta 'src' contiene los diferentes tipos de archivos que conforma
 ## Cloning repository
 Si quieres clonar el repositorio, ejecuta el siguiente comando:
 `$ git clone https://github.com/MADROCHA/bcn-hackathon2022.git/`
-Si quieres ver el resultado sin tener que clonarlo, puedes verlo clicando aqui: bcn-hackathon2022-uuttq118y-madrocha.vercel.app
+Si quieres ver el resultado sin tener que clonarlo, puedes verlo clicando aqui: https://bcn-hackathon2022-uuttq118y-madrocha.vercel.app/
 ## Installing Modules
 Para ver el proyecto, necesitaras ejecutar los siguientes comandos para instalar las dependencias utilizadas y de esta forma poder tener el proyecto con todas sus funciones y vistas correctamente.
  `npm install`
