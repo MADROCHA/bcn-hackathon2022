@@ -1,5 +1,8 @@
 
-## USAGE
+## Images
+
+(https://i.postimg.cc/prLGS6qj/hackathon.png)
+
 ## SOBRE EL PROYECTO
 
 El objetivo consiste en resolver un reto antes de la fecha indicada, con el objetivo de mejorar la experiencia de usuario al subir arhivos a una web y, como extra, hacer que estos se puedan conectar con la API de Google Drive.
@@ -57,7 +60,6 @@ La aplicación se cargará automáticamente en tu buscador configurado por defec
 - React
 - Javascript
 - Github Pages
-## Images
 - 
 ## Developer
 - [Miguel Angel Dominguez de la Rocha](https://github.com/MADROCHA) ( [ Linkedin here ](www.linkedin.com/in/miguel-angel-dominguez-de-la-rocha))
