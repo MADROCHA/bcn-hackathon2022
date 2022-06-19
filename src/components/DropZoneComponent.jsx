@@ -6,21 +6,21 @@ import {useDropzone} from "react-dropzone"
 
 function DropZoneComponent(){
 
-	const [selectedFiles, setSelectedFiles] = useState([]);
+	const [selectedFile, setSelectedFile] = useState([]);
 	
-	const onGrab = useCallback(acceptedFiles => {
-		setSelectedFiles(acceptedFiles.map(file => 
+	const onDrop = useCallback(acceptedFiles => {
+		setSelectedFile(acceptedFiles.map(file => 
             Object.assign(file,{
                 preview: URL.createObjectURL(file)
             })
             ))
         }, [])
 
-	const { getRootProps, getInputProps } = useDropzone({onGrab})
+	const { getRootProps, getInputProps } = useDropzone({onDrop})
 
-	const selected_files = selectedFiles?.map(file => (
-		<div>
-			<img src={file.preview} style={{width:'100px', heigth: '100px'}} alt='' />
+	const selectedFiles = selectedFile?.map(file => (
+		<div className="selected_files-container">
+			<img src={file.preview} style={{width:'400px', heigth: '400px'}} alt='' />
 		</div>
 	))
 
@@ -32,24 +32,25 @@ function DropZoneComponent(){
 	return( 
 	
 <>
-	<form>{selected_files}</form>
+	<form>{selectedFiles}
 		<div {...getRootProps()}>
 		<input {...getInputProps()} />
 
 		<div className ='dropzone-container' >
 			<p> ARRASTRA TUS ARCHIVOS AQUÍ </p>
 			<img
-				className ='fileBackground-image'
+				className ='dropbg-image'
 				src = {dropbg} 
 				alt = 'background for the dropzone container'/>
 				
 				<Button
 				text= 'subir tus archivos'
-				onClick={onGrab}
+				onClick={onDrop}
 				/>
 
 		</div>
 		</div>
+	</form>
 </>
 	)
 

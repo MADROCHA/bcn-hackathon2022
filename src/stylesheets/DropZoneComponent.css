@@ -13,9 +13,25 @@ p{
 
 }
 
-.fileBackground-image{
+form{
+    display: flex;
+    z-index: 3;
+    position: absolute;
+    object-fit: contain;
+    
+}
+
+
+.dropbg-image{
+    display: flex;
+    z-index: -3;
     width: 822px;
     height: 597px;
     left: 53px;
     top: 98px;
+}
+
+.selected_files-container{
+    padding-inline-start: 10rem;
+    padding-top: 20px;
 }

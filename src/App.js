@@ -15,9 +15,9 @@ function App() {
 
 	const handleOpenPicker = () => {
 		openPicker({
-			clientId: "480725159967-qlhs4bfie3e5tc9fqcb2efvgn03ggl0b.apps.googleusercontent.com",
-			developerKey: "AIzaSyDYbTnIU1Rj2YOEBTlOukYtLjDwuBmHdvI",
-			token: "ya29.a0ARrdaM82B63Ranr-hf-eDD0MRC_juWY3QKaPnhoMwXYXDBGGYanv7riw4_RNeoW-HL12cv_tA-tFP22xgtkLGt7qiMHxkT9C5k5GPfvn31VSkTAoSWfdc_G5XNrqsdBNmcFuqNwbFc1SDIvMNR2U0eLSinri",
+			clientId: "480725159967-9qq8pqvis21qk4cupsil934ht799i7c4.apps.googleusercontent.com",
+			developerKey: "AIzaSyAw1O_czCMHbAl4x5SB4t5qr-0CnUPSxMw",
+			token: "ya29.A0ARrdaM_6jOlXrxdUmjxp0dXu7ebsNi8xQIoR4lpeSI3mOqGaew51vGbDAwlaEpWTqW_UV_WwEWXHM3JSje1EtBiDzdrwxz0PBBl7WRus7JdMmLXY5GgfBQjhXqjpPoSWvrBPUcgj0DvyIL7Q-r-kWT1_DSO4YUNnWUtBVEFTQVRBU0ZRRl91NjFWd1hGbk9xemRYNmxIeWs2aUdiYTdzQQ0163",
 			viewId: "DOCS",
 			showUploadView: true,
 			showUploadFolders: true,
