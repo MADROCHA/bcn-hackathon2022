@@ -6,7 +6,7 @@ import {useDropzone} from "react-dropzone"
 
 function DropZoneComponent(){
 
-	const [ selectedFiles, setSelectedFiles] = useState([]);
+	const [selectedFiles, setSelectedFiles] = useState([]);
 	
 	const onGrab = useCallback(acceptedFiles => {
 		setSelectedFiles(acceptedFiles.map(file => 
@@ -33,7 +33,7 @@ function DropZoneComponent(){
 	
 <>
 	<form>{selected_files}</form>
-		<div {...getRootProps()}/>
+		<div {...getRootProps()}>
 		<input {...getInputProps()} />
 
 		<div className ='dropzone-container' >
@@ -48,6 +48,7 @@ function DropZoneComponent(){
 				onClick={onGrab}
 				/>
 
+		</div>
 		</div>
 </>
 	)
