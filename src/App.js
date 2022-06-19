@@ -40,8 +40,7 @@ useEffect( () => {
 			<div className = 'green-container'>
 			</div>
 			<DropZoneComponent></DropZoneComponent>
-			<Button 
-				text = 'Subir tus archivos' /> 
+			
 			</div>
 
 			<div className = 'login-welcome-container'>
