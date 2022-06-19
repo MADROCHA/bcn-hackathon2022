@@ -1,7 +1,7 @@
 import "./App.css"
 
 import DropZoneComponent from "./components/DropZoneComponent"
-import LoginButton from "./components/LoginButton"
+import LoginButton from "./components/LoginBtn"
 import { useEffect } from "react"
 import useDrivePicker from "react-google-drive-picker"
 import React from "react"
@@ -14,9 +14,9 @@ function App() {
 
 	const handleOpenPicker = () => {
 		openPicker({
-			clientId: "480725159967-9qq8pqvis21qk4cupsil934ht799i7c4.apps.googleusercontent.com",
-			developerKey: "AIzaSyAw1O_czCMHbAl4x5SB4t5qr-0CnUPSxMw",
-			token: "ya29.A0ARrdaM_6jOlXrxdUmjxp0dXu7ebsNi8xQIoR4lpeSI3mOqGaew51vGbDAwlaEpWTqW_UV_WwEWXHM3JSje1EtBiDzdrwxz0PBBl7WRus7JdMmLXY5GgfBQjhXqjpPoSWvrBPUcgj0DvyIL7Q-r-kWT1_DSO4YUNnWUtBVEFTQVRBU0ZRRl91NjFWd1hGbk9xemRYNmxIeWs2aUdiYTdzQQ0163",
+			clientId: "480725159967-41olb50nboog8ekmkl0umj12cr86ho12.apps.googleusercontent.com",
+			developerKey: "AIzaSyAa8PCU_SqB9PmRvraUJFhZHOAjZXqIjWE",
+			refresh_token: "1//046QgA9w3_I0eCgYIARAAGAQSNgF-L9IrENRlB82iL1JRuWHO9lIdN2yrNfRv-lCxMGvIXKwelx9q-r84GD7xMZ_fQf_xvcdt1w",
 			viewId: "DOCS",
 			showUploadView: true,
 			showUploadFolders: true,

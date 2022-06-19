@@ -3,11 +3,11 @@
 ## SOBRE EL PROYECTO
 
 El objetivo consiste en resolver un reto antes de la fecha indicada, con el objetivo de mejorar la experiencia de usuario al subir arhivos a una web y, como extra, hacer que estos se puedan conectar con la API de Google Drive.
-#####Las historias de usuarix son las siguientes:
+##### Las historias de usuario/a son las siguientes:
 - Desarrollar las vistas que se observan más arriba.
 - Crear las vistas de Login y Register y que redirijan a la vista que hemos hecho anteriormente.
 - Finalmente, hacer el deploy del proyecto.
-#####MEJORES QUE SE PUEDEN IMPLEMENTAR
+##### MEJORES QUE SE PUEDEN IMPLEMENTAR
 - Permitir al usuario agregar archivos a su cuenta de Google Drive a través de la API de Google (es posible utilizar librerías, no es necesario la implementación directa de la API)
 - Mejorar el diseño y hacerlo responsive
 - Se pueden implementar todo tipo de animaciones
@@ -29,16 +29,16 @@ El objetivo consiste en resolver un reto antes de la fecha indicada, con el obje
 
 En React la carpeta 'src' contiene los diferentes tipos de archivos que conformarán nuestra 'website'
 
-Los diferentes elementos y funciones se crean en archivos.'jsx' y se ubican en la carpeta -> 'componentes' 
+-Los diferentes elementos y funciones se crean en archivos.'jsx' y se ubican en la carpeta -> 'componentes' 
 
-Las imagenes se importan desde un 'folder' propio llamado 'images' 
+-Las imagenes se importan desde un 'folder' propio llamado 'images' 
 
-Los estilos de CSS se ubican en la carpeta 'stylesheets'.
+-Los estilos de CSS se ubican en la carpeta 'stylesheets'.
  
 ## Cloning repository
 Si quieres clonar el repositorio, ejecuta el siguiente comando:
-`$ git clone https://github.com/`
-Si quieres ver el resultado sin tener que clonarlo, puedes verlo clicando a ti: -------------------
+`$ git clone https://github.com/MADROCHA/bcn-hackathon2022.git/`
+Si quieres ver el resultado sin tener que clonarlo, puedes verlo clicando aqui: -------------------
 ## Installing Modules
 Para ver el proyecto, necesitaras ejecutar los siguientes comandos para instalar las dependencias utilizadas y de esta forma poder tener el proyecto con todas sus funciones y vistas correctamente.
  `npm install`
@@ -60,6 +60,6 @@ La aplicación se cargará automáticamente en tu buscador configurado por defec
 ## Images
 - 
 ## Developer
-- [Miguel Angel Dominguez de la Rocha](https://github.com/MADROCHA) ( [ Linkedin here ](www.linkedin.com/in/miguel-angel-dominguez-de-la-rocha/))
+- [Miguel Angel Dominguez de la Rocha](https://github.com/MADROCHA) ( [ Linkedin here ](www.linkedin.com/in/miguel-angel-dominguez-de-la-rocha))
 ## AGRADECIMIENTOS
- Agradecer a los organizadores de la Hackathon 'Barcelona Digital Talent y Creu Roja' e igual manera para 'A Mobile World Capital y a Nuewe'
+ Agradecer a los organizadores de la Hackathon y todas las entidades colaboradoras que hacen posible este evento.

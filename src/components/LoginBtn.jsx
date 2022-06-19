@@ -1,5 +1,5 @@
 import React from "react"
-import "../stylesheets/LoginButton.css"
+import "../stylesheets/LoginBtn.css"
 import icongoogle from "../images/icongoogle.png"
 
 
@@ -9,7 +9,7 @@ function LoginButton ({ text, onClick }){
 			className = 'login-button' 
 			onClick = {onClick}>
 			<img 
-				className = 'google-logo'
+				className = 'google-icon'
 				src = {icongoogle} 
 				alt = 'google logo' /> 
 			{text}
