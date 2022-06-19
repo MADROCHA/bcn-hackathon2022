@@ -1,7 +1,7 @@
 
 ## Images
 
-<img src="docs/logo.png](https://i.postimg.cc/prLGS6qj/hackathon.png" alt="Image-hackathon-success"/>
+<img src="https://i.postimg.cc/prLGS6qj/hackathon.png" alt="Image-hackathon-success"/>
 
 (https://i.postimg.cc/prLGS6qj/hackathon.png)
 
