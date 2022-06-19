@@ -1,11 +1,10 @@
 import "./App.css"
-import React from "react"
-import Button from "./components/Button"
+
 import DropZoneComponent from "./components/DropZoneComponent"
 import LoginButton from "./components/LoginButton"
-import  { useEffect } from "react"
+import { useEffect } from "react"
 import useDrivePicker from "react-google-drive-picker"
-// import React, {useCallback} from "react"
+import React from "react"
 
 
 
@@ -23,24 +22,24 @@ function App() {
 			showUploadFolders: true,
 			supportDrives: true,
 			multiselect: true,
-
-
-		});
-	}
-useEffect( () => {
-	if (data){
+				
+			});
+		}
+		
+		useEffect( () => {
+			if (data){
 		data.docs.map((i) => console.log(i));
-	}
-	},[data])
-
+			}
+		},[data])
+	
 	return (
 		<div className="App">
 		<>
 			<div className = 'dropZone-container'>
 			<div className = 'green-container'>
+			
 			</div>
 			<DropZoneComponent></DropZoneComponent>
-			
 			</div>
 
 			<div className = 'login-welcome-container'>
@@ -53,8 +52,7 @@ useEffect( () => {
 				onClick = {()=>handleOpenPicker()} 
 				type = "button"/>
 		</div>
-			</>
-
+		</>
 		</div>
 	)
 }

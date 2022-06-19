@@ -18,7 +18,10 @@ form{
     display: flex;
     z-index: 3;
     object-fit: contain;
-    
+    width: 822px;
+    height: 597px;
+    left: 53px;
+    top: 98px;
 }
 
 
