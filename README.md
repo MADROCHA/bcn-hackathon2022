@@ -12,12 +12,12 @@
 
 ## SOBRE EL PROYECTO
 
-El objetivo consiste en resolver un reto antes de la fecha indicada, con el objetivo de mejorar la experiencia de usuario al subir arhivos a una web y, como extra, hacer que estos se puedan conectar con la API de Google Drive.
+El objetivo consiste en resolver un reto antes de la fecha indicada, con el objetivo de mejorar la experiencia de usuario al subir archivos a una web y, como extra, hacer que estos se puedan conectar con la API de Google Drive.
 ##### Las historias de usuario/a son las siguientes:
 - Desarrollar las vistas que se observan más arriba.
 - Crear las vistas de Login y Register y que redirijan a la vista que hemos hecho anteriormente.
 - Finalmente, hacer el deploy del proyecto.
-##### MEJORES QUE SE PUEDEN IMPLEMENTAR
+##### MEJORAS QUE SE PUEDEN IMPLEMENTAR
 - Permitir al usuario agregar archivos a su cuenta de Google Drive a través de la API de Google (es posible utilizar librerías, no es necesario la implementación directa de la API)
 - Mejorar el diseño y hacerlo responsive
 - Se pueden implementar todo tipo de animaciones
